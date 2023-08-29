@@ -1,6 +1,7 @@
 'use client'
 import React from "react"
 import AddTodo from "@/components/AddTodo"
+import ListTodo from "@/components/ListTodo"
 import Container from "react-bootstrap/esm/Container"
 
 // Style Libs
@@ -12,7 +13,8 @@ export default function Home() {
       <section className="pt-5">
         <Container>
           <h2>Omkar's NextJS ToDo App</h2>
-          <AddTodo/>
+          <AddTodo />
+          <ListTodo />
         </Container>
       </section>
     </main>
